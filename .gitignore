@@ -1,0 +1,35 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+docker-compose.prod.yml
+backend/.env
+backend/.env.*
+backend/Dockerfile
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Frontend
+node_modules/
+dist/
+.vite/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs / temporary files
+*.log
+*.tmp
